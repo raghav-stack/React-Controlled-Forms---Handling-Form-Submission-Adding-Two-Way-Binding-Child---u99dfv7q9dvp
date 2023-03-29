@@ -22,7 +22,7 @@ function App() {
             <label htmlFor="text" className="form-label">
               Example textarea
             </label>
-            <textarea className="form-control" id="text" rows="3" name="text" onChange={e => {
+            <textarea className="form-control" id="text" rows="3" name="text" value={text} onChange={e => {
 								setText(e.target.value);
 							}}></textarea>
             <label className="form-check-label" htmlFor="radio">
